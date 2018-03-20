@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.nav-bar {
+    height: 90px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.body {
+    background-image: url(Images/younggirl.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    padding: 5px 15px;
+    font-family: Ubuntu mono;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border: 0.5px solid rgb(83, 81, 81);
+    border-radius: 12px;
+}
